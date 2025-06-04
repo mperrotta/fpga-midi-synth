@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "16" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "test_midi_behav" "xil_defaultlib.test_midi" -log "elaborate.log" 

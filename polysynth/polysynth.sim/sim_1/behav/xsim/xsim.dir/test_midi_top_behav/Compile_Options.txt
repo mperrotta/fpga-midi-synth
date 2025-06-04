@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "16" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "test_midi_top_behav" "xil_defaultlib.test_midi_top" "xil_defaultlib.glbl" -log "elaborate.log" 
