@@ -8,7 +8,6 @@
 *_is_running*
 *_is_complete*
 **/*.rpt
-*.xpr
 *.bit
 *TempBreakPointFile*
 
