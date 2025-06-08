@@ -14,9 +14,10 @@ As you can see the last midi data read is displayed on the seven segment display
  # Status
 
 This is a hobby project and a work in progress. It does respond to MIDI inputs and generates the correct square wave audio signal for each note. I verified audio frequencies with an oscilloscope. Simultaneously played notes are mixed in a simple mixer (polyphony up to 8). It also displays the last received MIDI data on the 7seg display. It is buggy and does glitch (missed midi cmds, occasionally bad audio). Some of these bugs may be related to clock domain crossing. Clocks:
-    - 100mhz Nexys A7 system clock
-    - 12.28mhz (PPL IP) DAC master clock
-    - 31250hz MIDI serial communication clock
+ - 100mhz Nexys A7 system clock
+ - 12.28mhz (PPL IP) DAC master clock
+ - 31250hz MIDI serial communication clock
+ - 48Khz DAC word select clock
 
 TODOS:
  - Fix timing warnings. There are multiple clock domains and there is a bunch of cross domain communication. I have a branch I'm working on to fix this
